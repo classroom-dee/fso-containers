@@ -1,0 +1,7 @@
+services:
+  app:                          # The name of the service, can be anything
+    image: fsopen-todo-backend  # Declares which image to use
+    build: .                    # Declares where to build if image is not found
+    container_name: fsopen_todo_backend
+    ports:                      # Declares the ports to publish
+      - ${PORT}:${PORT}
