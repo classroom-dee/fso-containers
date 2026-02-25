@@ -1,0 +1,15 @@
+services:
+  mongo:
+    image: mongo
+    ports:
+      - ${DB_PORT}:${MONGO_PORT}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+    volumes:
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - fso-mongo-data:/data/db
+
+volumes:
+  fso-mongo-data:

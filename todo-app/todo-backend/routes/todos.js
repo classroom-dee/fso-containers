@@ -12,7 +12,7 @@ router.get('/', async (_, res) => {
 router.post('/', async (req, res) => {
   const todo = await Todo.create({
     text: req.body.text,
-    done: false
+    done: typeof req.body.done === 'number' ? !!parseInt(req.body.done) : false
   })
   res.send(todo);
 });
@@ -35,12 +35,20 @@ singleRouter.delete('/', async (req, res) => {
 
 /* GET todo. */
 singleRouter.get('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  res.send(req.todo);
 });
 
 /* PUT todo. */
 singleRouter.put('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  const updated = await Todo.findByIdAndUpdate(
+    req.todo.id,
+    req.body,
+    {
+      new: true
+    }
+  )
+  if (!updated) return res.sendStatus(404)
+  res.json(updated)
 });
 
 router.use('/:id', findByIdMiddleware, singleRouter)
