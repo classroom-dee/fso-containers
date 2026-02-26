@@ -1,0 +1,215 @@
+Script started on 2026-02-26 05:23:23+00:00 [COMMAND="cd todo-app/todo-backend && docker compose -f docker-compose.dev.yml up -d" TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="181" LINES="16"]
+[1A[1B[0G[?25l[+] Running 0/1
+ [33m⠋[0m Network todo-backend_default  Creating                                                                                                                                       [34m0.0s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/2[0m
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠋[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠙[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠹[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠸[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠼[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠴[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠦[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠧[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠇[0m Container todo-backend-mongo-1  Creating                                                                                                                                     [34m0.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠏[0m Container todo-backend-mongo-1  Starting                                                                                                                                     [34m0.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠋[0m Container todo-backend-mongo-1  Starting                                                                                                                                     [34m1.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠙[0m Container todo-backend-mongo-1  Starting                                                                                                                                     [34m1.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠹[0m Container todo-backend-mongo-1  Starting                                                                                                                                     [34m1.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠸[0m Container todo-backend-mongo-1  Starting                                                                                                                                     [34m1.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [33m⠼[0m Container todo-backend-mongo-1  Starting                                                                                                                                     [34m1.4s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                                                                      [34m0.1s [0m
+ [32m✔[0m Container todo-backend-mongo-1  [32mStarted[0m                                                                                                                                      [34m1.5s [0m
+[?25h
+Script done on 2026-02-26 05:23:24+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-02-26 05:25:08+00:00 [COMMAND="docker exec -it todo-backend-mongo-1 /bin/bash" TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="181" LINES="16"]
+[?2004hroot@b5c23af88ba9:/# mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	699fd94cd9647777578563b0
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.7.0[0m
+Using MongoDB:		undefined
+[1m[33mUsing Mongosh[0m:		2.7.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[?2004h[1G[0Jtest> [7GdisableTelemtry()
+Uncaught [1m[31mReferenceError[0m: disableTelemtry is not defined
+[1G[0Jtest> [7G[1G[0Jtest> disableTelemtry()[24G[1D[1G[0Jtest> disableTelemtry[44m([49m)[23G[1D[1G[0Jtest> disableTelemtry([44m)[49m[22G[1D[1G[0Jtest> disableTelemtry()[21G[1D[1D[1G[0Jtest> disableTelemetry()[20G[5C
+Telemetry is now disabled.
+[1G[0Jtest> [7Ga[1G[0Jtest> [7Gprocess.env.DB_PORT
+
+[1G[0Jtest> [7Gexit
+[?2004l]0;[?2004hroot@b5c23af88ba9:/# echo $MONO GO_INITDB_ROOT_U USERNAME
+[?2004lmongo-demo
+[?2004hroot@b5c23af88ba9:/# USER=$MONGO_INITDB_ROOT_USERNAME PW=$MONGO_INITDB_ROOT_PAW SSWORD DB=$MONO  NGO_INITDB_DATABASE mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	699fda53b10c7587728563b0
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.7.0[0m
+Using MongoDB:		undefined
+[1m[33mUsing Mongosh[0m:		2.7.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+[1G[0J [1G[?2004h[1G[0Jtest> [7Gprocess.env.USER
+mongo-demo
+[1G[0Jtest> [7Gshow dbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jtest> [7Gexit
+[?2004l]0;[?2004hroot@b5c23af88ba9:/# mongosh -u $MONOG  GO_ROO   INITDB_ROOT_USERNAME -p MON   $MONGO_INITDB_ROOT_PASSWORD 
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	699fda8c3c9d84d9e68563b0
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.7.0[0m
+Using MongoDB:		8.2.5
+[1m[33mUsing Mongosh[0m:		2.7.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+[1G[0J [1G[?2004h[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2026-02-26T05:23:28.767+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2026-02-26T05:23:29.850+00:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2026-02-26T05:23:29.850+00:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2026-02-26T05:23:29.850+00:00: We suggest setting the contents of sysfsFile to 0.
+   2026-02-26T05:23:29.850+00:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+[1m[33m------[0m
+
+[1G[0Jtest> [7G/[90m//[39m [90mw[39m[90ma[39m[90mr[39m[90mn[39m[90mi[39m[90mn[39m[90mg[39m [90mm[39m[90me[39m[90ma[39m[90mn[39m[90ms[39m [90ma[39m[90mt[39m[90mt[39m[90ma[39m[90mc[39m[90mh[39m[90me[39m [90ma[39m [90mp[39m[90me[39m[90mr[39m[90ms[39m[90mi[39m[90ms[39m[90mt[39m[90me[39m[90mn[39m[90mt[39m [90mo[39m[1G[0Jtest> [90m// warning means attache a persistent [39m[45G[90mv[39m[90mo[39m[90ml[39m[90mu[39m[90mm[39m[90mn[39m[1G[0Jtest> [90m// warning means attache a persistent volum[39m[50G[90me[39m[90m?[39m
+
+[1G[0Jtest> [7Gshow dbsd
+Uncaught [1m[31mMongoshInvalidInputError[0m: [COMMON-10001] 'dbsd' is not a valid argument for "show".
+[1G[0Jtest> [7Gd[1G[0Jtest> [7Gsho d[1G[0Jtest> sho [11G[1G[0Jtest> sho[10Gw dbs
+[1madmin[0m          100.00 KiB
+[1mconfig[0m          36.00 KiB
+[1mlocal[0m           64.00 KiB
+[1mmongo-demo-db[0m   68.00 KiB
+[1G[0Jtest> [7Guse mongo-demo-db
+switched to db mongo-demo-db
+[1G[0Jmongo-demo-db> [16Gshow collections
+[1mtodos[0m
+[1G[0Jmongo-demo-db> [16Gdb.todos.find()[1D[1G[0Jmongo-demo-db> db.todos.find[44m([49m)[30G[1G[0Jmongo-demo-db> db.todos.find[44m([49m{)[31G[1G[0Jmongo-demo-db> db.todos.find[44m([49m{})[32G[1C[1G[0Jmongo-demo-db> db.todos.find({})[33G
+[
+  {
+    _id: ObjectId([32m'699eca5d2e1b8220878563b1'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'699eca5d2e1b8220878563b2'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'699ecb75a091a444f75722c4'[39m),
+    text: [32m'babo modified'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jmongo-demo-db> [16Gdb.o[1G[0Jmongo-demo-db> db.[19Gtodos.
+db.todos.__proto__                        db.todos.constructor                      db.todos.hasOwnProperty                   db.todos.isPrototypeOf
+db.todos.propertyIsEnumerable             db.todos.toLocaleString                   db.todos.toString                         db.todos.valueOf
+db.todos.aggregate                        db.todos.bulkWrite                        db.todos.countDocuments                   db.todos.deleteMany
+db.todos.deleteOne                        db.todos.distinct                         db.todos.estimatedDocumentCount           db.todos.find
+db.todos.findOne                          db.todos.renameCollection                 db.todos.findOneAndDelete                 db.todos.findOneAndReplace
+db.todos.findOneAndUpdate                 db.todos.insertMany                       db.todos.insertOne                        db.todos.isCapped
+db.todos.replaceOne                       db.todos.updateMany                       db.todos.updateOne                        db.todos.compactStructuredEncryptionData
+db.todos.convertToCapped                  db.todos.createIndexes                    db.todos.createIndex                      db.todos.ensureIndex
+db.todos.getIndexes                       db.todos.getIndexSpecs                    db.todos.getIndices                       db.todos.getIndexKeys
+db.todos.dropIndexes                      db.todos.dropIndex                        db.todos.totalIndexSize                   db.todos.getDB
+db.todos.getMongo                         db.todos.dataSize                         db.todos.storageSize                      db.todos.totalSize
+db.todos.drop                             db.todos.exists                           db.todos.getFullName                      db.todos.getName
+db.todos.runCommand                       db.todos.explain                          db.todos.stats                            db.todos.latencyStats
+db.todos.initializeOrderedBulkOp          db.todos.initializeUnorderedBulkOp        db.todos.getPlanCache                     db.todos.validate
+db.todos.hideIndex                        db.todos.unhideIndex                      db.todos.getSearchIndexes                 db.todos.createSearchIndex
+db.todos.createSearchIndexes              db.todos.dropSearchIndex                  db.todos.updateSearchIndex
+
+[1G[0Jmongo-demo-db> db.todos.[25Gub[1G[0Jmongo-demo-db> db.todos.u[26G[1G[0Jmongo-demo-db> db.todos.[25Ginsert
+db.todos.insertMany  db.todos.insertOne
+
+[1G[0Jmongo-demo-db> db.todos.insert[31GOne()[1D[1G[0Jmongo-demo-db> db.todos.insertOne[44m([49m)[35G[1G[0Jmongo-demo-db> db.todos.insertOne[44m([49m{)[36G[1G[0Jmongo-demo-db> db.todos.insertOne[44m([49m{})[37G[1D[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m})[36G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"})[39m[37G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m""[39m})[38G[1D[1G[0Jmongo-demo-db> db.todos.insertOne({[44m[32m"[49m"[39m})[37G[1G[0Jmongo-demo-db> db.todos.insertOne({[44m[32m"[49mt"[39m})[38G[1G[0Jmongo-demo-db> db.todos.insertOne({[44m[32m"[49mte"[39m})[39G[1G[0Jmongo-demo-db> db.todos.insertOne({[44m[32m"[49mtex"[39m})[40G[1G[0Jmongo-demo-db> db.todos.insertOne({[44m[32m"[49mtext"[39m})[41G[1C[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m})[42G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m:})[43G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: })[44G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: I})[45G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: In})[46G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Inc})[47G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Incr})[48G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Incre})[49G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increa})[50G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increas})[51G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase})[52G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase })[53G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase t})[54G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase th})[55G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the})[56G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the })[57G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the n})[58G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the nu})[59G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the num})[60G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the numb})[61G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the numbe})[62G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number})[63G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number })[64G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number o})[65G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m})[66G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m })[67G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m t})[68G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m to})[69G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m too})[70G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tool})[71G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools})[72G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools })[73G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools i})[74G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m})[75G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m })[76G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m m})[77G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my})[78G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my })[79G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my t})[80G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my to})[81G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my too})[82G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool})[83G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool })[84G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool b})[85G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool be})[86G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool bel})[87G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool belt})[88G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool belt[32m"})[39m[89G[1D[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool belt[32m"})[39m[88G[1D[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: Increase the number [36mof[39m tools [36min[39m my tool belt[32m"})[39m[87G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m})[45G[47C[1D[1G[0Jmongo-demo-db> db.todos.insertOne[44m([49m{[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m})[91G[1D[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m})[90G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m,})[91G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, })[92G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"})[39m[93G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m""[39m})[94G[1D[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [44m[32m"[49m"[39m})[93G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [44m[32m"[49md"[39m})[94G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [44m[32m"[49mdo"[39m})[95G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [44m[32m"[49mdon"[39m})[96G[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [44m[32m"[49mdone"[39m})[97G[1C[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"done"[39m})[98G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"done"[39m:})[99G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"done"[39m: })[100G[1G[0Jmongo-demo-db> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"done"[39m: [33m0[39m})[101G[1C[1G[0Jmongo-demo-db> db.todos.insertOne[44m([49m{[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"done"[39m: [33m0[39m})[102G[1C[1G[0Jmongo-demo-db> db.todos.insertOne({[32m"text"[39m: [32m"Increase the number of tools in my tool belt"[39m, [32m"done"[39m: [33m0[39m})[103G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'699fde363c9d84d9e68563b1'[39m)
+}
+[1G[0Jmongo-demo-db> [16Gdb.todos.findOne[1G[0Jmongo-demo-db> db.todos.findOn[31G[1G[0Jmongo-demo-db> db.todos.findO[30G[1G[0Jmongo-demo-db> db.todos.find[29GBy[1G[0Jmongo-demo-db> db.todos.findB[30G[1G[0Jmongo-demo-db> db.todos.find[29G
+db.todos.find               db.todos.findOne            db.todos.findOneAndDelete   db.todos.findOneAndReplace  db.todos.findOneAndUpdate
+
+[1G[0Jmongo-demo-db> db.todos.find[29GOne()[1D[1G[0Jmongo-demo-db> db.todos.findOne[44m([49m)[33G[1C[1G[0Jmongo-demo-db> db.todos.findOne()[34G
+{
+  _id: ObjectId([32m'699eca5d2e1b8220878563b1'[39m),
+  text: [32m'Write code'[39m,
+  done: [33mtrue[39m
+}
+[1G[0Jmongo-demo-db> [16G[1G[0Jmongo-demo-db> db.todos.findOne()[34G[1D[1G[0Jmongo-demo-db> db.todos.findOne[44m([49m)[33G[1G[0Jmongo-demo-db> db.todos.findOne[44m([49m{)[34G[1G[0Jmongo-demo-db> db.todos.findOne[44m([49m{})[35G[1D[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m})[34G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"})[39m[35G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"})[39m[34G[1C[1G[0Jmongo-demo-db> db.todos.findOne({[32m"})[39m[35G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"}})[39m[36G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"})[39m[35G[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m""[39m})[36G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49m"[39m})[35G[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49m_"[39m})[36G[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49m_i"[39m})[37G[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49m_id"[39m})[38G[1C[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"_id"[39m})[39G[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"_id"[39m:})[40G[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"_id"[39m: })[41G699fde363c9d84d9e68563b1[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: 699fde363c9d84d9e68563b1[32m"})[39m[66G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: 699fde363c9d84d9e68563b1[32m"})[39m[65G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: 699fde363c9d84d9e68563b1[32m"})[39m[64G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[42G[27C
+[1mnull[22m
+[1G[0Jmongo-demo-db> [16G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[69G[1D[1G[0Jmongo-demo-db> db.todos.findOne[44m([49m{[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[68G[1D[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[67G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [44m[32m"[49m699fde363c9d84d9e68563b1"[39m})[66G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[65G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[41G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[40G[1D[1D[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49m_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[38G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[37G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[35G[33C
+[1mnull[22m
+[1G[0Jmongo-demo-db> [16G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[68G[1D[1G[0Jmongo-demo-db> db.todos.findOne[44m([49m{[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[67G[1D[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[66G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [44m[32m"[49m699fde363c9d84d9e68563b1"[39m})[65G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[64G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[40G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[39G[1D[1D[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49mid"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[37G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[36G[1D[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[36G[1C[1C[1G[0Jmongo-demo-db> db.todos.findOne({[44m[32m"[49m_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[38G[1C[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1"[39m})[39G[1C[1C[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[41G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: O[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[42G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: Ob[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[43G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: Obj[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[44G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: Obje[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[45G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: Objec[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[46G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: [36mObject[39m[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[47G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: ObjectI[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[48G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: ObjectId[32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[49G[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: ObjectId([32m"699fde363c9d84d9e68563b1[44m"[39m[49m})[50G[1C[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: ObjectId([32m"699fde363c9d84d9e68563b1"[39m})[51G[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: ObjectId([44m[32m"[49m699fde363c9d84d9e68563b1"[39m})[75G[1C[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"_id"[39m: ObjectId([32m"699fde363c9d84d9e68563b1"[39m})[76G[1G[0Jmongo-demo-db> db.todos.findOne([44m{[49m[32m"_id"[39m: ObjectId([32m"699fde363c9d84d9e68563b1"[39m)})[77G[2C[1G[0Jmongo-demo-db> db.todos.findOne({[32m"_id"[39m: ObjectId([32m"699fde363c9d84d9e68563b1"[39m)})[79G
+{
+  _id: ObjectId([32m'699fde363c9d84d9e68563b1'[39m),
+  text: [32m'Increase the number of tools in my tool belt'[39m,
+  done: [33m0[39m
+}
+[1G[0Jmongo-demo-db> [16Gexit
+[?2004l]0;[?2004hroot@b5c23af88ba9:/# exit
+[?2004lexit
+
+Script done on 2026-02-26 05:48:42+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-02-26 05:52:46+00:00 [COMMAND="npm run dev" TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="181" LINES="16"]
+[1mnpm[22m [31merror[39m [94mcode[39m ENOENT
+[1mnpm[22m [31merror[39m [94msyscall[39m open
+[1mnpm[22m [31merror[39m [94mpath[39m /lab/dee/exercises/fso-containers/package.json
+[1mnpm[22m [31merror[39m [94merrno[39m [33m-2[39m
+[1mnpm[22m [31merror[39m [94menoent[39m Could not read package.json: Error: ENOENT: no such file or directory, open '/lab/dee/exercises/fso-containers/package.json'
+[1mnpm[22m [31merror[39m [94menoent[39m This is related to npm not being able to find a file.
+[1mnpm[22m [31merror[39m [94menoent[39m
+[1mnpm[22m [31merror[39m A complete log of this run can be found in: /home/dee/.npm/_logs/2026-02-26T05_52_46_909Z-debug-0.log
+
+Script done on 2026-02-26 05:52:46+00:00 [COMMAND_EXIT_CODE="254"]
+Script started on 2026-02-26 05:56:10+00:00 [COMMAND="curl http://localhost:3000/todos/699fde363c9d84d9e68563b1" TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="155" LINES="16"]
+{"_id":"699fde363c9d84d9e68563b1","text":"Increase the number of tools in my tool belt","done":false}
+Script done on 2026-02-26 05:56:10+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-02-26 05:53:15+00:00 [COMMAND="cd todo-app/todo-backend && npm run dev" TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="181" LINES="16"]
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[dotenv@17.3.1] injecting env (6) from .env [2m-- tip: 🤖 agentic secret storage: https://dotenvx.com/as2[0m
+[0mGET /todos/699fde363c9d84d9e68563b1 [32m200 [0m12.914 ms - 101[0m
+^C
+Script done on 2026-02-26 05:56:21+00:00 [COMMAND_EXIT_CODE="130"]
