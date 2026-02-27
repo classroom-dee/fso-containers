@@ -10,6 +10,17 @@ services:
     volumes:
       - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
       - fso-mongo-data:/data/db
+  
+  redis:
+    image: redis:7
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}
+    environment:
+      - REDIS_URL=${REDIS_URL}
+    volumes:
+      - fso-redis-data:/data
+    command: ["redis-server", "--port", "${REDIS_PORT}", "--save", "60", "1", "--loglevel warning"]
 
 volumes:
   fso-mongo-data:
+  fso-redis-data:

@@ -1,4 +1,6 @@
-require('dotenv').config();
+const path = require('path')
+dotEnvPath = path.join(__dirname, '..', '.env')
+require('dotenv').config({ path: dotEnvPath });
 
 const MONGO_URL = process.env.MONGO_URL || undefined
 const REDIS_URL = process.env.REDIS_URL || undefined

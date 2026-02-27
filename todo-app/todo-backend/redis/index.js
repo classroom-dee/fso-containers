@@ -13,12 +13,16 @@ if (!REDIS_URL) {
   getAsync = redisIsDisabled
   setAsync = redisIsDisabled
 } else {
-  const client = redis.createClient({
-    url: REDIS_URL
-  })
-    
-  getAsync = promisify(client.get).bind(client)
-  setAsync = promisify(client.set).bind(client)    
+  try {
+    const client = redis.createClient({
+      url: REDIS_URL
+    })
+      
+    getAsync = promisify(client.get).bind(client)
+    setAsync = promisify(client.set).bind(client)    
+  } catch (e) {
+    console.log(`ERRRRRROR: ${e}`)
+  }
 }
 
 module.exports = {
