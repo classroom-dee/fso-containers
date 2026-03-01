@@ -1,0 +1,246 @@
+Script started on 2026-03-01 05:48:58+00:00 [COMMAND="docker compose -f todo-app/todo-backend/docker-compose.dev.yml up -d" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+[1A[1B[0G[?25l[+] Running 0/1
+ [33m⠋[0m Network todo-backend_default  Creating                                                                                    [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/3[0m
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠋[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.1s [0m
+ [33m⠋[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠙[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.2s [0m
+ [33m⠙[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠹[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.3s [0m
+ [33m⠹[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠸[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.4s [0m
+ [33m⠸[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠼[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.5s [0m
+ [33m⠼[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.5s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠴[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.6s [0m
+ [33m⠴[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.6s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠦[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.7s [0m
+ [33m⠦[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠧[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.8s [0m
+ [33m⠧[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.8s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠇[0m Container todo-backend-mongo-1  Creating                                                                                  [34m0.9s [0m
+ [33m⠇[0m Container todo-backend-redis-1  Creating                                                                                  [34m0.9s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠏[0m Container todo-backend-mongo-1  Creating                                                                                  [34m1.0s [0m
+ [33m⠏[0m Container todo-backend-redis-1  Creating                                                                                  [34m1.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠋[0m Container todo-backend-mongo-1  Creating                                                                                  [34m1.1s [0m
+ [33m⠋[0m Container todo-backend-redis-1  Creating                                                                                  [34m1.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠙[0m Container todo-backend-mongo-1  Creating                                                                                  [34m1.2s [0m
+ [32m✔[0m Container todo-backend-redis-1  [32mCreated[0m                                                                                   [34m1.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠹[0m Container todo-backend-mongo-1  Creating                                                                                  [34m1.3s [0m
+ [32m✔[0m Container todo-backend-redis-1  [32mCreated[0m                                                                                   [34m1.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠸[0m Container todo-backend-mongo-1  Starting                                                                                  [34m1.4s [0m
+ [33m⠙[0m Container todo-backend-redis-1  Starting                                                                                  [34m1.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠼[0m Container todo-backend-mongo-1  Starting                                                                                  [34m1.5s [0m
+ [33m⠹[0m Container todo-backend-redis-1  Starting                                                                                  [34m1.5s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠴[0m Container todo-backend-mongo-1  Starting                                                                                  [34m1.6s [0m
+ [33m⠸[0m Container todo-backend-redis-1  Starting                                                                                  [34m1.6s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠦[0m Container todo-backend-mongo-1  Starting                                                                                  [34m1.7s [0m
+ [33m⠼[0m Container todo-backend-redis-1  Starting                                                                                  [34m1.7s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠧[0m Container todo-backend-mongo-1  Starting                                                                                  [34m1.8s [0m
+ [33m⠴[0m Container todo-backend-redis-1  Starting                                                                                  [34m1.8s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠇[0m Container todo-backend-mongo-1  Starting                                                                                  [34m1.9s [0m
+ [33m⠦[0m Container todo-backend-redis-1  Starting                                                                                  [34m1.9s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠏[0m Container todo-backend-mongo-1  Starting                                                                                  [34m2.0s [0m
+ [33m⠧[0m Container todo-backend-redis-1  Starting                                                                                  [34m2.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠋[0m Container todo-backend-mongo-1  Starting                                                                                  [34m2.1s [0m
+ [33m⠇[0m Container todo-backend-redis-1  Starting                                                                                  [34m2.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠙[0m Container todo-backend-mongo-1  Starting                                                                                  [34m2.2s [0m
+ [33m⠏[0m Container todo-backend-redis-1  Starting                                                                                  [34m2.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [33m⠹[0m Container todo-backend-mongo-1  Starting                                                                                  [34m2.3s [0m
+ [32m✔[0m Container todo-backend-redis-1  [32mStarted[0m                                                                                   [34m2.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Network todo-backend_default    [32mCreated[0m                                                                                   [34m0.1s [0m
+ [32m✔[0m Container todo-backend-mongo-1  [32mStarted[0m                                                                                   [34m2.3s [0m
+ [32m✔[0m Container todo-backend-redis-1  [32mStarted[0m                                                                                   [34m2.2s [0m
+[?25h
+Script done on 2026-03-01 05:49:01+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 05:50:36+00:00 [COMMAND="docker exec -it todo-backend-redis-1 redis-cli" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+Could not connect to Redis at 127.0.0.1:6379: Connection refused
+not connected> [0Knot connected> a[16C[0Knot connected> [15C
+
+Script done on 2026-03-01 05:50:53+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 05:51:10+00:00 [COMMAND="docker exec -it todo-backend-redis-1 redis-cli" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+Could not connect to Redis at 127.0.0.1:6379: Connection refused
+not connected> [0Knot connected> K[16C[0Knot connected> KE[17C[0Knot connected> KEY[18C[0Knot connected> KEYS[19C[0Knot connected> KEYS [0;90;49mpattern[0m[20C[0Knot connected> KEYS *[0;90;49m pattern[0m[21C[0Knot connected> KEYS *[21C
+Could not connect to Redis at 127.0.0.1:6379: Connection refused
+not connected> 
+
+Script done on 2026-03-01 05:51:43+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 05:52:22+00:00 [COMMAND="docker exec -it todo-backend-redis-1 redis-cli -p 6478" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+Could not connect to Redis at 127.0.0.1:6478: Connection refused
+not connected> [0Knot connected> KEYS *[0;90;49m pattern[0m[21C[0Knot connected> KEYS *[0;90;49m pattern[0m[20C[0Knot connected> KEYS *[0;90;49m pattern[0m[19C[0Knot connected> [15C
+
+Script done on 2026-03-01 05:52:28+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 05:52:34+00:00 [COMMAND="docker exec -it todo-backend-redis-1 redis-cli -p 6378" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+127.0.0.1:6378> [0K127.0.0.1:6378> K[17C[0K127.0.0.1:6378> KE[18C[0K127.0.0.1:6378> KEY[19C[0K127.0.0.1:6378> KEYS[20C[0K127.0.0.1:6378> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6378> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6378> KEYS *[22C
+1) "added_todos"
+2) "name"
+127.0.0.1:6378> [0K127.0.0.1:6378> G[17C[0K127.0.0.1:6378> GE[18C[0K127.0.0.1:6378> GET[19C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6378> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6378> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6378> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6378> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6378> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todos[31C
+"2"
+127.0.0.1:6378> [0K127.0.0.1:6378> K[17C[0K127.0.0.1:6378> KE[18C[0K127.0.0.1:6378> KEY[19C[0K127.0.0.1:6378> KEYS[20C[0K127.0.0.1:6378> KEY[19C[0K127.0.0.1:6378> KE[18C[0K127.0.0.1:6378> K[17C[0K127.0.0.1:6378> [16C[0K127.0.0.1:6378> G[17C[0K127.0.0.1:6378> GE[18C[0K127.0.0.1:6378> GET[19C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET n[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET na[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET nam[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET name[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET name [0;90;49m[0m[25C[0K127.0.0.1:6378> GET name[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET name[24C
+"dee"
+127.0.0.1:6378> [0K127.0.0.1:6378> G[17C[0K127.0.0.1:6378> GE[18C[0K127.0.0.1:6378> GET[19C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6378> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6378> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6378> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6378> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6378> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todos [0;90;49m[0m[32C[0K127.0.0.1:6378> GET added_todos s[0;90;49m [0m[33C[0K127.0.0.1:6378> GET added_todos [0;90;49m[0m[32C[0K127.0.0.1:6378> GET added_todos 2[0;90;49m [0m[33C[0K127.0.0.1:6378> GET added_todos [0;90;49m[0m[32C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6378> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6378> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6378> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6378> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6378> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6378> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET[19C[0K127.0.0.1:6378> GE[18C[0K127.0.0.1:6378> G[17C[0K127.0.0.1:6378> [16C[0K127.0.0.1:6378> C[17C[0K127.0.0.1:6378> [16C[0K127.0.0.1:6378> I[17C[0K127.0.0.1:6378> IN[18C[0K127.0.0.1:6378> INC[19C[0K127.0.0.1:6378> INCR[20C[0K127.0.0.1:6378> INCRB[21C[0K127.0.0.1:6378> INCRBY[22C[0K127.0.0.1:6378> INCRBY [0;90;49mkey increment[0m[23C[0K127.0.0.1:6378> INCRBY a[0;90;49m key increment[0m[24C[0K127.0.0.1:6378> INCRBY ad[0;90;49m key increment[0m[25C[0K127.0.0.1:6378> INCRBY add[0;90;49m key increment[0m[26C[0K127.0.0.1:6378> INCRBY adde[0;90;49m key increment[0m[27C[0K127.0.0.1:6378> INCRBY added[0;90;49m key increment[0m[28C[0K127.0.0.1:6378> INCRBY added_[0;90;49m key increment[0m[29C[0K127.0.0.1:6378> INCRBY added_t[0;90;49m key increment[0m[30C[0K127.0.0.1:6378> INCRBY added_to[0;90;49m key increment[0m[31C[0K127.0.0.1:6378> INCRBY added_tod[0;90;49m key increment[0m[32C[0K127.0.0.1:6378> INCRBY added_todo[0;90;49m key increment[0m[33C[0K127.0.0.1:6378> INCRBY added_todos[0;90;49m key increment[0m[34C[0K127.0.0.1:6378> INCRBY added_todos [0;90;49mincrement[0m[35C[0K127.0.0.1:6378> INCRBY added_todos 9[0;90;49m increment[0m[36C[0K127.0.0.1:6378> INCRBY added_todos 90[0;90;49m increment[0m[37C[0K127.0.0.1:6378> INCRBY added_todos 9[0;90;49m increment[0m[36C[0K127.0.0.1:6378> INCRBY added_todos [0;90;49mincrement[0m[35C[0K127.0.0.1:6378> INCRBY added_todos 8[0;90;49m increment[0m[36C[0K127.0.0.1:6378> INCRBY added_todos 89[0;90;49m increment[0m[37C[0K127.0.0.1:6378> INCRBY added_todos 899[0;90;49m increment[0m[38C[0K127.0.0.1:6378> INCRBY added_todos 8999[0;90;49m increment[0m[39C[0K127.0.0.1:6378> INCRBY added_todos 8999[39C
+(integer) 9001
+127.0.0.1:6378> [0K127.0.0.1:6378> INCRBY added_todos 8999[0;90;49m increment[0m[39C[0K127.0.0.1:6378> GET name[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todos[31C
+"9001"
+127.0.0.1:6378> 
+
+Script done on 2026-03-01 05:57:17+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 05:58:00+00:00 [COMMAND="cd todo-app/todo-backend && npm run dev" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[dotenv@17.3.1] injecting env (8) from .env [2m-- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild[0m
+^C
+Script done on 2026-03-01 05:59:47+00:00 [COMMAND_EXIT_CODE="130"]
+Script started on 2026-03-01 05:59:58+00:00 [COMMAND="cd todo-app/todo-backend && npm run dev &" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+
+Script done on 2026-03-01 05:59:58+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:00:18+00:00 [COMMAND="ps aux | grep node" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         1542  0.7  0.2 11884816 163880 ?     Sl   05:46   0:06 /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-3e61ce9b-5253-47a9-8bb3-06d503bbcc51
+dee         1862  0.3  0.1 1361892 85888 ?       Sl   05:46   0:02 /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/out/bootstrap-fork --type=ptyHost --logsPath /home/dee/.vscode-server/data/logs/20260301T054605
+dee         3355  1.0  0.9 55470864 636212 ?     Sl   05:46   0:08 /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node --dns-result-order=ipv4first /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+dee         3366  0.0  0.0 1263216 60908 ?       Sl   05:46   0:00 /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/out/bootstrap-fork --type=fileWatcher
+dee         4337  0.0  0.0 1013848 49372 ?       Sl   05:46   0:00 /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node /home/dee/.vscode-server/extensions/dbaeumer.vscode-eslint-3.0.20/server/out/eslintServer.js --node-ipc --clientProcessId=3355
+dee         4346  0.0  0.0 1016136 59856 ?       Sl   05:46   0:00 /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node /home/dee/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3355
+dee         6684  0.0  0.0   5708  2048 pts/3    S+   06:00   0:00 script -c ps aux | grep node -a script-answers/exercise12_11.txt
+dee         6685  0.0  0.0   7344  3584 pts/0    Ss+  06:00   0:00 bash -c ps aux | grep node
+dee         6687  0.0  0.0   6548  2304 pts/0    S+   06:00   0:00 grep node
+
+Script done on 2026-03-01 06:00:18+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:03:34+00:00 [COMMAND="lsof -i :3000" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+
+Script done on 2026-03-01 06:03:34+00:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2026-03-01 06:05:20+00:00 [COMMAND="ps aux | grep -v vscode | grep node" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         6935  0.0  0.0   6548  2304 pts/0    S+   06:05   0:00 grep node
+
+Script done on 2026-03-01 06:05:20+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:06:10+00:00 [COMMAND="ps aux | grep -v vscode | grep nodemon" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         6999  0.0  0.0   6548  2304 pts/0    S+   06:06   0:00 grep nodemon
+
+Script done on 2026-03-01 06:06:10+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:06:30+00:00 [COMMAND="ps aux | grep nodemon" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         7071  0.0  0.0   5708  2048 pts/3    S+   06:06   0:00 script -c ps aux | grep nodemon -a script-answers/exercise12_11.txt
+dee         7072  0.0  0.0   7344  3584 pts/0    Ss+  06:06   0:00 bash -c ps aux | grep nodemon
+dee         7074  0.0  0.0   6548  2304 pts/0    S+   06:06   0:00 grep nodemon
+
+Script done on 2026-03-01 06:06:31+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:08:43+00:00 [COMMAND="sudo lsof -i :3000" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+[sudo] password for dee: 
+
+Script done on 2026-03-01 06:08:48+00:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2026-03-01 06:11:40+00:00 [COMMAND="cd todo-app/todo-backend && nohup npm run dev" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+nohup: ignoring input and appending output to 'nohup.out'
+
+Script done on 2026-03-01 06:11:40+00:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2026-03-01 06:12:00+00:00 [COMMAND="ps aux | grep nodemon" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         7636  0.0  0.0   5708  2048 pts/3    S+   06:12   0:00 script -c ps aux | grep nodemon -a script-answers/exercise12_11.txt
+dee         7637  0.0  0.0   7344  3456 pts/0    Ss+  06:12   0:00 bash -c ps aux | grep nodemon
+dee         7639  0.0  0.0   6548  2304 pts/0    S+   06:12   0:00 grep nodemon
+
+Script done on 2026-03-01 06:12:00+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:12:23+00:00 [COMMAND="ps aux | grep -v vscode | grep node" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         7761  0.0  0.0   6548  2304 pts/0    S+   06:12   0:00 grep node
+
+Script done on 2026-03-01 06:12:23+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:14:27+00:00 [COMMAND="cd todo-app/todo-backend && nohup npm run dev -- --stdin false " TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+nohup: ignoring input and appending output to 'nohup.out'
+
+Script done on 2026-03-01 06:14:27+00:00 [COMMAND_EXIT_CODE="1"]
+Script started on 2026-03-01 06:18:04+00:00 [COMMAND="ps aux | grep nodemon" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+dee         8245  0.0  0.0   5708  2048 pts/3    S+   06:18   0:00 script -c ps aux | grep nodemon -a script-answers/exercise12_11.txt
+dee         8246  0.0  0.0   7344  3584 pts/1    Ss+  06:18   0:00 bash -c ps aux | grep nodemon
+dee         8248  0.0  0.0   6548  2304 pts/1    S+   06:18   0:00 grep nodemon
+
+Script done on 2026-03-01 06:18:04+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:26:38+00:00 [COMMAND="curl http://localhost:3000/statistics" TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="100" LINES="13"]
+{"added_todos":"9001"}
+Script done on 2026-03-01 06:26:38+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:29:23+00:00 [COMMAND="curl -X POST -H 'content-type: applicaiont/json' -d '{"text": "something to do", "done": 0}' http://localhost:3000/todos" TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="100" LINES="13"]
+{"_id":"69a3dcc329aae92636bc8853","done":false,"__v":0}
+Script done on 2026-03-01 06:29:23+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:30:06+00:00 [COMMAND="docker ps | grep todo" TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="100" LINES="13"]
+baced583e09e   mongo     "docker-entrypoint.s…"   41 minutes ago   Up 41 minutes   0.0.0.0:3456->27017/tcp, [::]:3456->27017/tcp           todo-backend-mongo-1
+15ecbc07390d   redis:7   "docker-entrypoint.s…"   41 minutes ago   Up 41 minutes   0.0.0.0:6378->6378/tcp, [::]:6378->6378/tcp, 6379/tcp   todo-backend-redis-1
+
+Script done on 2026-03-01 06:30:06+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:30:39+00:00 [COMMAND="docker exec -it todo-backend-redis-1 redis-cli -p 6378" TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="100" LINES="13"]
+127.0.0.1:6378> [0K127.0.0.1:6378> s[17C[0K127.0.0.1:6378> [16C[0K127.0.0.1:6378> G[17C[0K127.0.0.1:6378> GE[18C[0K127.0.0.1:6378> GET[19C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET t[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET to[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET tod[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET todo[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET todos[0;90;49m key[0m[25C[0K127.0.0.1:6378> GET todo[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET tod[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET to[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET t[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6378> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6378> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6378> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6378> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6378> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todos[31C
+"9002"
+127.0.0.1:6378> [0K127.0.0.1:6378> D[17C[0K127.0.0.1:6378> DE[18C[0K127.0.0.1:6378> DEL[19C[0K127.0.0.1:6378> DELE[20C[0K127.0.0.1:6378> DELET[21C[0K127.0.0.1:6378> DELETE[22C[0K127.0.0.1:6378> DELETE [23C[0K127.0.0.1:6378> DELETE[22C[0K127.0.0.1:6378> DELET[21C[0K127.0.0.1:6378> DELE[20C[0K127.0.0.1:6378> DEL[19C[0K127.0.0.1:6378> DE[18C[0K127.0.0.1:6378> DEl[19C[0K127.0.0.1:6378> DE[18C[0K127.0.0.1:6378> DEL[19C[0K127.0.0.1:6378> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6378> DEL a[0;90;49m key [key ...][0m[21C[0K127.0.0.1:6378> DEL ad[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6378> DEL add[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6378> DEL adde[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6378> DEL added[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6378> DEL added_[0;90;49m key [key ...][0m[26C[0K127.0.0.1:6378> DEL added_t[0;90;49m key [key ...][0m[27C[0K127.0.0.1:6378> DEL added_to[0;90;49m key [key ...][0m[28C[0K127.0.0.1:6378> DEL added_tod[0;90;49m key [key ...][0m[29C[0K127.0.0.1:6378> DEL added_todo[0;90;49m key [key ...][0m[30C[0K127.0.0.1:6378> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6378> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6378> [0K127.0.0.1:6378> G[17C[0K127.0.0.1:6378> GE[18C[0K127.0.0.1:6378> GET[19C[0K127.0.0.1:6378> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6378> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6378> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6378> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6378> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6378> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6378> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6378> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6378> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6378> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6378> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todos[31C
+(nil)
+127.0.0.1:6378> 
+
+Script done on 2026-03-01 06:33:22+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:33:29+00:00 [COMMAND="curl -X POST -H 'content-type: applicaiont/json' -d '{"text": "something to do", "done": 0}' http://localhost:3000/todos" TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="100" LINES="13"]
+{"_id":"69a3ddb929aae92636bc8855","done":false,"__v":0}
+Script done on 2026-03-01 06:33:29+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:33:36+00:00 [COMMAND="docker exec -it todo-backend-redis-1 redis-cli -p 6378" TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="100" LINES="13"]
+127.0.0.1:6378> [0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> [16C[0K127.0.0.1:6378> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6378> GET added_todos[31C
+"1"
+127.0.0.1:6378> 
+
+Script done on 2026-03-01 06:33:42+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-03-01 06:25:18+00:00 [COMMAND="cd todo-app/todo-backend && node ./bin/www" TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="130" LINES="13"]
+[dotenv@17.3.1] injecting env (8) from .env [2m-- tip: 🤖 agentic secret storage: https://dotenvx.com/as2[0m
+[0mGET / [32m200 [0m2.025 ms - 124[0m
+ Set result: OK
+ Get result: dee
+[0mGET /statistics [32m200 [0m0.985 ms - 22[0m
+[0mPOST /todos [32m200 [0m140.720 ms - 55[0m
+[0mPOST /todos [32m200 [0m2.812 ms - 55[0m
+^C
+Script done on 2026-03-01 06:33:54+00:00 [COMMAND_EXIT_CODE="130"]
