@@ -19,7 +19,13 @@ services:
       - REDIS_URL=${REDIS_URL}
     volumes:
       - fso-redis-data:/data
-    command: ["redis-server", "--port", "${REDIS_PORT}", "--save", "60", "1", "--loglevel warning"]
+    command: [
+      "redis-server", 
+      "--appendonly", "yes", 
+      "--port", "${REDIS_PORT}", 
+      "--save", "60", "1", 
+      "--loglevel warning"
+    ]
 
 volumes:
   fso-mongo-data:
