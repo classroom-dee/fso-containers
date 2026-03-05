@@ -5,11 +5,18 @@ ENV VITE_BACKEND_URL=${VITE_BACKEND_URL}
 
 WORKDIR /usr/src/app
 
-COPY . .
+# use caching
+COPY package*.json ./
 
 RUN npm ci
 
+COPY . .
+
 RUN npm run build
+
+FROM build-stage AS test
+
+RUN npm test
 
 FROM nginx:1.25-alpine
 
