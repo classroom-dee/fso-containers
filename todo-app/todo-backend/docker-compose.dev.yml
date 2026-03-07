@@ -1,4 +1,22 @@
 services:
+  server:
+    image: fsopen-todo-backend-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    ports:
+      - ${NODE_PORT}:${NODE_PORT}
+    environment:
+      - MONGO_URL=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongo:${MONGO_PORT}/${MONGO_INITDB_DATABASE}
+      - REDIS_URL=redis://redis:${REDIS_PORT}
+      - PORT=${NODE_PORT}
+    volumes:
+      - ./:/usr/src/app
+    container_name: fsopen_todo_backend_dev
+    depends_on:
+      - mongo
+      - redis
+
   mongo:
     image: mongo
     ports:

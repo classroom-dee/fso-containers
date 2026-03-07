@@ -7,5 +7,9 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     setupFiles: './src/tests/setup.js'
+  },
+  server: {
+    // -H 'Host: localhost' not needed anymore (or '--header="Host: localhost"')
+    allowedHosts: ['app', 'localhost']
   }
 })
