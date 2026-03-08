@@ -1,0 +1,76 @@
+services:
+  app:
+    image: fsopen-todo-front-dev
+    build:
+      context: ./todo-frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./todo-frontend:/usr/src/app
+    ports:
+      - 5173:5173
+    container_name: fsopen_todo_front_dev
+    depends_on:
+      - server
+  
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: fsopen_todo_reverse_proxy_dev
+    depends_on:
+      - app
+
+  # debug-helper:
+  #   image: busybox
+
+  server:
+    image: fsopen-todo-backend-dev
+    build:
+      context: ./todo-backend
+      dockerfile: dev.Dockerfile
+    ports:
+      - ${NODE_PORT}:${NODE_PORT}
+    environment:
+      - MONGO_URL=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongo:${MONGO_PORT}/${MONGO_INITDB_DATABASE}
+      - REDIS_URL=redis://redis:${REDIS_PORT}
+      - PORT=${NODE_PORT}
+    volumes:
+      - ./todo-backend:/usr/src/app
+    container_name: fsopen_todo_backend_dev
+    depends_on:
+      - mongo
+      - redis
+
+  mongo:
+    image: mongo
+    ports:
+      - ${DB_PORT}:${MONGO_PORT}
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+    volumes:
+      - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - fso-mongo-data:/data/db
+  
+  redis:
+    image: redis:7
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}
+    environment:
+      - REDIS_URL=${REDIS_URL}
+    volumes:
+      - fso-redis-data:/data
+    command: [
+      "redis-server", 
+      "--appendonly", "yes", 
+      "--port", "${REDIS_PORT}", 
+      "--save", "60", "1", 
+      "--loglevel warning"
+    ]
+
+volumes:
+  fso-mongo-data:
+  fso-redis-data:

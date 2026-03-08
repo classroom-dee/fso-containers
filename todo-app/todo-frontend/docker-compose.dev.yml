@@ -10,5 +10,15 @@ services:
       - 5173:5173
     container_name: fsopen_todo_front_dev
   
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: fsopen_todo_reverse_proxy_dev
+    depends_on:
+      - app
+
   # debug-helper:
   #   image: busybox
