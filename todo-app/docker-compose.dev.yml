@@ -6,8 +6,8 @@ services:
       dockerfile: dev.Dockerfile
     volumes:
       - ./todo-frontend:/usr/src/app
-    ports:
-      - 5173:5173
+    # ports:
+    #   - 5173:5173
     container_name: fsopen_todo_front_dev
     depends_on:
       - server
@@ -30,8 +30,8 @@ services:
     build:
       context: ./todo-backend
       dockerfile: dev.Dockerfile
-    ports:
-      - ${NODE_PORT}:${NODE_PORT}
+    # ports:
+    #   - ${NODE_PORT}:${NODE_PORT}
     environment:
       - MONGO_URL=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongo:${MONGO_PORT}/${MONGO_INITDB_DATABASE}
       - REDIS_URL=redis://redis:${REDIS_PORT}
