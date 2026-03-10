@@ -1,4 +1,4 @@
-FROM node:20 AS build-stage
+FROM node:24 AS build-stage
 
 ARG VITE_BACKEND_URL
 ENV VITE_BACKEND_URL=${VITE_BACKEND_URL}
