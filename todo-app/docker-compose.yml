@@ -5,7 +5,7 @@ services:
       context: ./todo-frontend
       dockerfile: Dockerfile
       args:
-        - VITE_BACKEND_URL=${VITE_BACKEND_URL}
+        - VITE_BACKEND_URL=http://localhost:8080/api
     container_name: fsopen_todo_front
     depends_on:
       - server
@@ -27,9 +27,9 @@ services:
       context: ./todo-backend
       dockerfile: Dockerfile
     environment:
-      - MONGO_URL=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongo:${MONGO_PORT}/${MONGO_INITDB_DATABASE}
-      - REDIS_URL=redis://redis:${REDIS_PORT}
-      - PORT=${NODE_PORT}
+      - MONGO_URL=mongodb://mongo-demo:mongo-demo@mongo:27017/mongo-demo-db
+      - REDIS_URL=redis://redis:6378
+      - PORT=3000
     container_name: fsopen_todo_backend
     depends_on:
       - mongo
@@ -38,11 +38,11 @@ services:
   mongo:
     image: mongo
     ports:
-      - ${DB_PORT}:${MONGO_PORT}
+      - 3456:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
-      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
-      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+      MONGO_INITDB_ROOT_USERNAME: mongo-demo
+      MONGO_INITDB_ROOT_PASSWORD: mongo-demo
+      MONGO_INITDB_DATABASE: mongo-demo-db
     volumes:
       - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
       - fso-mongo-data:/data/db
@@ -50,15 +50,15 @@ services:
   redis:
     image: redis:7
     ports:
-      - ${REDIS_PORT}:${REDIS_PORT}
+      - 6378:6378
     environment:
-      - REDIS_URL=${REDIS_URL}
+      - REDIS_URL=redis://localhost:6378
     volumes:
       - fso-redis-data:/data
     command: [
       "redis-server", 
       "--appendonly", "yes", 
-      "--port", "${REDIS_PORT}", 
+      "--port", "6378", 
       "--save", "60", "1", 
       "--loglevel warning"
     ]

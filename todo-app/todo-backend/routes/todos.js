@@ -16,12 +16,13 @@ router.post('/', async (req, res) => {
     text: req.body.text,
     done: typeof req.body.done === 'number' ? !!parseInt(req.body.done) : false
   })
-  const curr = await redis.getAsync('added_todos')
-  let payload = 1
-  if (curr && parseInt(curr) > 0) {
-    payload += parseInt(curr)
-  }
-  await redis.setAsync('added_todos', payload)
+  // const curr = await redis.getAsync('added_todos')
+  // let payload = 1
+  // if (curr && parseInt(curr) > 0) {
+  //   payload += parseInt(curr)
+  // }
+  // await redis.setAsync('added_todos', payload)
+  await redis.incrAsync('added_todos')
   res.send(todo);
 });
 

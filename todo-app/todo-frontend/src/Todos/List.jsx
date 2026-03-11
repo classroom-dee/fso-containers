@@ -35,14 +35,17 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
         )
 
         return (
-          <div key={todo.id} style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '70%', margin: 'auto' }}>
-            <span>
-              {todo.text} 
-            </span>
-            {todo.done ? <Todo info={doneInfo} /> : <Todo info={notDoneInfo} />}
+          <div key={todo.id} style={{ maxWidth: '70%', margin: 'auto' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <span>
+                {todo.text} 
+              </span>
+              {todo.done ? <Todo info={doneInfo} /> : <Todo info={notDoneInfo} />}
+            </div>
+            <hr /> {/* That reduce line does a horrible thing to the e2e test */}
           </div>
         )
-      }).reduce((acc, cur) => [...acc, <hr />, cur], [])}
+      })}
     </>
   )
 }

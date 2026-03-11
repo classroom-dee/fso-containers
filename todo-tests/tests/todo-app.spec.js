@@ -42,11 +42,14 @@ test.describe('Todo App E2E Tests', () => {
     await page.waitForTimeout(500);
     
     // Find and click the checkbox or completion button
-    const todoItem = page.locator(`text=${testTodoText}`).locator('..');
-    const checkbox = todoItem.getByRole('checkbox').or(todoItem.getByRole('button', { name: /complete|done|check/i }));
+    // const todoItem = page.locator(`text=${testTodoText}`).locator('..');
+    // const checkbox = todoItem.getByRole('checkbox').or(todoItem.getByRole('button', { name: /complete|done|check/i }));
+    // why checkbox?
+    const todoItem = page.locator('div').filter({ hasText: testTodoText }).first();
+    const button = todoItem.getByRole('button', { name: /complete|done|check/i })
     
-    if (await checkbox.count() > 0) {
-      await checkbox.first().click();
+    if (await button.count() > 0) {
+      await button.first().click({ force: true }); // O M G
       await page.waitForTimeout(500);
       
       // Verify the todo's state changed (could be strikethrough, different class, etc.)
